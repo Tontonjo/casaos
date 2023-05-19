@@ -16,5 +16,5 @@ wget -O /etc/rc.local https://github.com/Tontonjo/casaos/raw/main/rc.local
 chmod 755 /etc/rc.local
 
 # Install samba for hostname resolution
-apt update -y
-apt install -y samba
+# apt update -y
+# apt install -y samba
