@@ -7,7 +7,7 @@
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
 
 # Install Casaos
-curl -fsSL https://get.casaos.io | sudo bash
+curl -fsSL https://get.casaos.io | bash
 
 # Install samba for hostname resolution
 apt update -y
