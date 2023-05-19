@@ -16,5 +16,5 @@ echo "#!/bin/sh -e \n/root/casaos_installation.sh \nrm -f /etc/rc.local \nexit 0
 chmod 755 /etc/rc.local
 
 # Install samba for hostname resolution
-apt update -y
-apt install -y samba
+# apt update -y
+# apt install -y samba
