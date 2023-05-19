@@ -25,11 +25,7 @@ Once installed, you can access casa os on the following link:
 | ----------- | ----------- | ----------- | ----------- |
 | ISO debian | SSH | root  | password |
 
-To change the default ssh password
+To change the default ssh root "password"
 ```shell
-if [[ $(id -u) -ne 0 ]] ; then sudo passwd pi ; else passwd root ; fi
-```  
-To change the smb password: 
-```shell
-if [[ $(id -u) -ne 0 ]] ; then sudo smbpasswd -a joix ; else smbpasswd -a joix ; fi
+passwd root
 ``` 
