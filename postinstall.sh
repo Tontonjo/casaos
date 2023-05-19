@@ -12,7 +12,9 @@ wget -O /root/casaos_installation.sh https://github.com/Tontonjo/casaos/raw/main
 chmod +x /root/casaos_installation.sh
 
 # Add script to be executed on boot then removed once ran
-echo "#!/bin/sh -e \n/root/casaos_installation.sh \nrm -f /etc/rc.local \nexit 0" > /etc/rc.local
+echo "#!/bin/sh -e
+/root/casaos_installation.sh
+rm -f /etc/rc.local \nexit 0" > /etc/rc.local
 chmod 755 /etc/rc.local
 
 # Install samba for hostname resolution
