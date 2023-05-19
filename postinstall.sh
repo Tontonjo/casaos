@@ -8,8 +8,8 @@ sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/g' /etc/ssh/ssh
 
 # Setup casaos installation
 # Download startup script and make it executable
-# wget -O /root/casaos_installation.sh https://github.com/Tontonjo/casaos/raw/main/casaos_installation.sh
-# chmod +x /root/casaos_installation.sh
+wget -O /root/casaos_installation.sh https://github.com/Tontonjo/casaos/raw/main/casaos_installation.sh
+chmod +x /root/casaos_installation.sh
 
 # Add script to be executed on boot then removed once ran
 echo "#!/bin/sh -e \n/root/casaos_installation.sh \nrm -f /etc/rc.local \nexit 0" > /etc/rc.local
