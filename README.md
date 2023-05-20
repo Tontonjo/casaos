@@ -18,7 +18,7 @@ You can watch a demonstration [Here!](https://www.youtube.com/watch?v=mWpu7n1m0d
 
 ## Access: 
 Once installed, you can access casa os using the hostname of your host: if it's "casaos" ->
-- casaos        http://casaos
+http://casaos
 
 ## Default passwords:
 | OS | Service | username | password |  
