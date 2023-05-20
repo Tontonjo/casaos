@@ -17,7 +17,7 @@ i just wanted to use my experience to create an easy way to test / install casa 
 You can watch a demonstration [Here!](https://www.youtube.com/watch?v=mWpu7n1m0dY)
 
 ## Access: 
-Once installed, you can access casa os on the following link:
+Once installed, you can access casa os using the hostname of your host: if it's "casaos" ->
 - casaos        http://casaos
 
 ## Default passwords:
