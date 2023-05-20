@@ -14,7 +14,7 @@ i just wanted to use my experience to create an easy way to test / install casa 
 [![Express VPN](https://badgen.net/badge/Express%20VPN/Affiliated%20link?icon=K)](https://www.xvuslink.com/?a_fid=TontonJo)  
 
 ## Demonstration:
-You can watch a demonstration [[Here!](https://www.youtube.com/watch?v=mWpu7n1m0dY)]()
+You can watch a demonstration [Here!](https://www.youtube.com/watch?v=mWpu7n1m0dY)
 
 ## Access: 
 Once installed, you can access casa os on the following link:
